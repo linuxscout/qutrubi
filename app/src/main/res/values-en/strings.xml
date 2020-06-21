@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">v1.2.1606</string>
+    <string name="app_name"> قطــــربي </string>
+    <string name="activity_Conjugate"> Conjugate  verbs </string>
+    <string name="activity_game"> Games </string>
+    <string name="loading"> Loading... </string>
+    <string name="start"> Start </string>
+    <string name="intrnet"> conjugate online </string>
+    <string name="setting_general"> Settings </string>
+    //---------------------------------------------------
+    <string name="facebook"> Facebook page </string>
+    <string name="about"> About </string>
+    //---------------------------------------------------
+    <string name="setting_langage"> Language</string>
+    <string name="arab_language"> Arabic </string>
+    <string name="english_language"> English </string>
+    <string name="games"> Gamesا </string>
+    <string name="exit"> Exit </string>
+    <string name="share"> Share </string>
+    <string name="read_more"> About </string>
+    <string name="back"> Back </string>
+    <string name="editHint">أدخل الفعل</string>
+    <string name="Conjugué">Conjugate</string>
+    <string name="Active_voice"> Active voice </string>
+    <string name="passive_voice"> Passive  voice </string>
+    <string name="message_exit"> Do you want to quit? </string>
+    <string name="button_yes">Yes</string>
+    <string name="button_No"> No </string>
+    <string name="Properties"> Properties of the verb </string>
+    <string name="cancel"> Cancel </string>
+    <string name="OK"> Ok </string>
+    <string name="name_verbs"> Verb : </string>
+    <string name="verb_conjugué"> verb conjugated : </string>
+    <string name="verb_type"> Type : </string>
+    <string name="trans"> Transitive : </string>
+    <string name="root"> Root : </string>
+    <string name="lettre"> measured : </string>
+    <string name="note"> Notes : </string>
+
+    <string name="jeux_pronouns"> Learn pronouns </string>
+    <string name="jeux_conjugate"> Learn conjugate </string>
+    <string name="jeux_properties"> Learn verbs properties </string>
+    <string name="history">Verbs history</string>
+
+
+    <string name="pastactive">  Past  </string>
+    <string name="futuractive">  Future  </string>
+    <string name="impirative"> Imperative  </string>
+    <string name="ConfirmedImperative"> Confirmed imperative </string>
+    <string name="JussiveFuture"> Jussive future    </string>
+    <string name="SubjunctiveFuture"> Subjunctive future  </string>
+    <string name="ConfirmedFuture"> Confirmed future   </string>
+    <string name="PassivePast">  Passive past </string>
+    <string name="PassiveFuture">  Passive future </string>
+    <string name="PassiveJussiveFuture"> Passive jussive future </string>
+    <string name="PassiveSubjunctiveFuture"> Passive subjunctive future </string>
+    <string name="PassiveConfirmedFuture"> Passive confirmed future </string>
+
+
+    <string name="text_note">Call may contain non-Arabic characters. </string>
+    <string name="text_note2">The number of characters may be less than three characters or more than seven.</string>
+    <string name="text_note3">It may contain inappropriate character: Teh Marbuta, or Hamza below Alef.</string>
+    <string name="text_note4">It may be the place insert of the verb is empty.</string>
+    <string name="text_note5">please make sure</string>
+
+
+    //----------------------------------------------------------------------------------------------
+
+    <string name="about0"> Qutrubi is an application for arabic verbs conjugation in easy way, it enables users to learn conjugation. Qutrubi program is free software and open source,it is built  on   Qutrub. The program can be used to conjugate verbs in tenses and pronouns The application conjugate verbs offline, and can allow you to connect to the Qutrub web online     </string>
+
+    <string name="about1">The program can be customized, and allow to choice conjugation mode for triliteral verbs.The program displays the verb properties. Qutrubi conjugate most used verbs offline based on a database which is generated from Qutrub conjugator, and allow to connect to Qutrub web Site to conjugate other verbs. The application contains games to learn users to conjugate verbs and verbs properties. You can contact us for your comments and suggestion via e-mailي    </string>
+
+    <string name="about2">To download:</string>
+
+    <string name="about3">Developers: BENZITOUNE Ahmed and KIHAL Redouane, Supervized by Taha Zerrouki.</string>
+
+    <string name="vrb_in">in</string>
+    //------------------------------------------------------------------------------------------
+
+
+    <string name="webconjugate"> Conjugate online </string>
+
+    <string name="webmessage"> Do you want to conjugate verbs online? </string>
+
+
+    <string name="sharIt"> Share it </string>
+
+    <string name="sharMessage"> You can download the application form this link  </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+
+</resources>

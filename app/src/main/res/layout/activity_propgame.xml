@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#10a7aa" >
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:onClick="button_back"
+                android:id="@+id/back"
+                android:background="@drawable/back_button"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/jeux_properties"
+                android:textColor="#ffffff"
+
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_alignBottom="@+id/Back"
+                android:layout_toRightOf="@+id/Back"
+                android:layout_toEndOf="@+id/Back"
+                android:id="@+id/textView3"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:onClick="but_again"
+                android:id="@+id/next"
+                android:background="@drawable/again_button"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/back"
+                android:layout_toStartOf="@+id/back" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ask_tt">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="elverrbs"
+                    android:id="@+id/verbs_id"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_toLeftOf="@+id/textView6"
+                    android:layout_toStartOf="@+id/textView6"
+                    android:layout_weight="1.5"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="خصائص   الفعل  :"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/textView6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_weight="0.8"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/khs_back"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.05"
+                    android:background="#4a4b7f">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="الوزن"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:id="@+id/prop_verbs_games"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/maLinare4"
+                    android:layout_below="@+id/maLinare3"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="ثلاثي"
+
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/trilaire"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_marginRight="4dp"
+                        android:textColor="#ffffff" />
+
+
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="غير ثلاثي"
+                        android:id="@+id/intrilitare"
+                        android:background="@drawable/button_gnr"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/trilaire"
+                        android:layout_toStartOf="@+id/trilaire"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#ffffff" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#4a4b7f"
+                    android:layout_weight="1.05">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="التعدي"
+                        android:id="@+id/prop_verbs_games2"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1.05" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/maLinare6"
+                    android:weightSum="1"
+                    android:layout_below="@+id/maLinare5"
+                    android:gravity="center"
+                    android:layout_alignRight="@+id/relativeresulta"
+                    android:layout_alignEnd="@+id/relativeresulta"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="متعدي"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/trasitiv"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="4dp"
+                        android:textColor="#ffffff" />
+
+
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="لازم"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/intanstiv"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/trasitiv"
+                        android:layout_toStartOf="@+id/trasitiv"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#ffffff" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.05"
+                    android:background="#4a4b7f">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="النوع"
+                        android:id="@+id/prop_verbs_games1"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1.05" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/maLinare8"
+                    android:weightSum="1"
+                    android:layout_below="@+id/maLinare7"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="مثال"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/mithal"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="مقصور"
+                        android:background="@drawable/button_gnr"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:id="@+id/maksour"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/ajouf"
+                        android:layout_toStartOf="@+id/ajouf"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أجوف"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/ajouf"
+                        android:textSize="20dp"
+                        android:gravity="center"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/mithal"
+                        android:layout_toStartOf="@+id/mithal"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/maLinare9"
+                    android:weightSum="1"
+                    android:layout_below="@+id/maLinare8"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="سالم"
+                        android:background="@drawable/button_gnr"
+                        android:textSize="20dp"
+                        android:id="@+id/sahihe"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="مضاعف"
+                        android:background="@drawable/button_gnr"
+                        android:textSize="20dp"
+                        android:id="@+id/moudaef"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/mahmoue"
+                        android:layout_toStartOf="@+id/mahmoue"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="93dp"
+                        android:layout_height="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="مهموز"
+                        android:background="@drawable/button_gnr"
+                        android:textSize="20dp"
+                        android:id="@+id/mahmoue"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/sahihe"
+                        android:layout_toStartOf="@+id/sahihe"
+                        android:gravity="center"
+                        android:layout_margin="2dp"
+                        android:textColor="#ffffff" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/maLinare9"
+                    android:id="@+id/relativeLayout9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="لفيف مفروق"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/lafif_mafrok"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_margin="3dp" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="لفيف مقرون"
+                        android:background="@drawable/button_gnr"
+                        android:id="@+id/lafif_makron"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/lafif_mafrok"
+                        android:layout_toStartOf="@+id/lafif_mafrok"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_margin="3dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:gravity="bottom|right">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="160dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/khs_scor"
+                        android:paddingLeft="30dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="0 من 3"
+                            android:id="@+id/result"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/textView7"
+                            android:layout_toStartOf="@+id/textView7"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="النتيجة :"
+                            android:id="@+id/textView7"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:layout_weight="1"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/menu_layout">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#10a7aa" >
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/menuu"
+                    android:background="@drawable/menu_button" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="20dp" >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/imageView7"
+                        android:background="@drawable/main_tet" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#eceff1">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:id="@+id/img_view"
+                        android:background="@drawable/main_logo"
+                        android:layout_weight="1"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="190dp"
+                        android:layout_height="45dp"
+                        android:text="@string/start"
+                        android:id="@+id/butt_start"
+                        android:textSize="22dp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/play_button"
+                        android:paddingLeft="40dp"
+                        android:onClick="Start_conjugate" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="190dp"
+                        android:layout_height="45dp"
+                        android:text="@string/games"
+                        android:id="@+id/butt_games"
+                        android:textColor="#ffffff"
+                        android:textSize="22dp"
+                        android:textAlignment="center"
+                        android:background="@drawable/game_button"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="40dp"
+                        android:onClick="Start_games" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="190dp"
+                        android:layout_height="45dp"
+                        android:text="@string/exit"
+                        android:id="@+id/butt_exit"
+                        android:textSize="22dp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"
+                        android:background="@drawable/exit_button"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="40dp"
+                        android:onClick="Exit_application" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/ask_butt1"></LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+        <!-- android:layout_gravity="start" -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_gravity="start"
+            android:id="@+id/meni">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:background="#ededed">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/back_menu" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/imageView8"
+                                android:background="@drawable/logo_menu"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:gravity="bottom"
+                                android:paddingRight="20dp" >
+
+                                <ImageView
+                                    android:layout_width="95dp"
+                                    android:layout_height="26dp"
+                                    android:id="@+id/imageView9"
+                                    android:background="@drawable/qut_menu"
+                                    android:layout_gravity="center_horizontal|bottom" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:paddingRight="20dp" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/app_version"
+                                    android:id="@+id/textView10"
+                                    android:textSize="15dp"
+                                    android:gravity="top|center_horizontal"
+                                    android:textStyle="bold"
+                                    android:textColor="#00595b" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView2"
+                            android:background="@drawable/setting_icon" />
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/setting_general"
+                            android:id="@+id/setting"
+                            android:background="@drawable/drewl_button"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:onClick="setting"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp" >
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView3"
+                            android:background="@drawable/facebook_icon" />
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/facebook"
+                            android:id="@+id/fbpage"
+                            android:background="@drawable/drewl_button"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:onClick="facebook_butt"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp" >
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView4"
+                            android:background="@drawable/partage_ico" />
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/share"
+                            android:id="@+id/sher"
+                            android:background="@drawable/drewl_button"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:onClick="share_butt"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp" >
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView6"
+                            android:background="@drawable/about_icon" />
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/about"
+                            android:id="@+id/about"
+                            android:background="@drawable/drewl_button"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:onClick="information_butt"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center" >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="290dp"
+                            android:id="@+id/imageView10" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Copyright © 2016 , Group AppBox"
+                            android:id="@+id/textView11"
+                            android:gravity="bottom|center_horizontal"
+                            android:layout_weight="1"
+                            android:paddingBottom="10dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <!-- android:layout_gravity="start" -->
+</LinearLayout>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#10a7aa">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/go_to_back"
+    android:background="@drawable/back_button"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:onClick="butt_back" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/jeux_pronouns"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/tray_gain"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/again_button"
+                android:onClick="butt_tryagain" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/ask_tt">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+
+                    android:id="@+id/how_this"
+                    android:gravity="center"
+                    android:theme="@style/Widget.AppCompat.Toolbar"
+                    android:textSize="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/relative_1"
+                    android:layout_alignEnd="@+id/relative_1"
+                    android:text="من هو ؟" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#4a4b7f">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Moukatb"
+                        android:id="@+id/tvPr_type"
+                        android:gravity="center"
+                        android:textSize="30dp"
+                        android:textStyle="italic"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@+id/textView4"
+                        android:layout_toStartOf="@+id/textView4"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="الضميـــر  "
+                       android:gravity="center"
+
+                        android:textSize="30dp"
+                        android:layout_alignTop="@+id/tvPr_type"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textView4"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Moufed"
+                        android:id="@+id/nembre"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:textStyle="italic"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/nature"
+                        android:layout_toStartOf="@+id/nature"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="moudaker"
+                        android:id="@+id/nature"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:textStyle="italic"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ask_back">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنا"
+                        android:textSize="30dp"
+                        android:id="@+id/ana"
+
+                        android:textColor="@color/accent_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/Antona"
+                        android:layout_toStartOf="@+id/Antona"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنتم"
+                        android:textSize="30dp"
+                        android:id="@+id/antom"
+                        android:textColor="#ffffff"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنتن"
+                        android:textSize="30dp"
+                        android:id="@+id/Antona"
+                        android:textColor="@color/accent_material_dark"
+
+                        android:layout_alignTop="@+id/ana"
+                        android:layout_toLeftOf="@+id/antom"
+                        android:layout_toStartOf="@+id/antom"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="هي"
+                        android:textSize="30dp"
+                        android:id="@+id/hya"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنتَ"
+                        android:textSize="30dp"
+                        android:id="@+id/anta"
+                        android:textColor="@color/accent_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/hya"
+                        android:layout_toStartOf="@+id/hya"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="هو"
+                        android:textSize="30dp"
+                        android:id="@+id/howa"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/anta"
+                        android:layout_toStartOf="@+id/anta"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنتما"
+
+                        android:textSize="30dp"
+                        android:id="@+id/antouma"
+                        android:textColor="@color/accent_material_dark"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/homa"
+                        android:layout_toStartOf="@+id/homa"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="هما "
+                        android:textSize="30dp"
+                        android:id="@+id/homa"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/hona"
+                        android:layout_toStartOf="@+id/hona"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="هن"
+                        android:textSize="30dp"
+                        android:id="@+id/hona"
+                        android:textColor="@color/accent_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="هم"
+                        android:textSize="30dp"
+                        android:id="@+id/home"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/anti"
+                        android:layout_toStartOf="@+id/anti"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="نحن"
+                        android:textSize="30dp"
+                        android:id="@+id/nahno"
+                        android:textColor="@color/accent_material_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="أنتِ"
+                        android:textSize="30dp"
+                        android:id="@+id/anti"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/nahno"
+                        android:layout_toStartOf="@+id/nahno"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">v1.2.1606</string>
+    <string name="app_name"> قطــــربي </string>
+    <string name="activity_Conjugate"> تصريف الأفعال </string>
+    <string name="activity_game"> العب معنا </string>
+    <string name="loading"> جارٍ التثبيت... </string>
+    <string name="start"> ابــــدأ </string>
+    <string name="intrnet"> تصريف من الإنترنت </string>
+    <string name="setting_general"> إعدادات </string>
+    //---------------------------------------------------
+    <string name="facebook">صفحة التطبيق</string>
+    <string name="about">حول قطربي </string>
+    //---------------------------------------------------
+    <string name="setting_langage"> اللغة</string>
+    <string name="arab_language"> عربي </string>
+    <string name="english_language"> إنجليزي </string>
+    <string name="games"> الــعب معــنا </string>
+    <string name="exit"> خــروج </string>
+    <string name="share"> شــارك </string>
+    <string name="read_more"> حـول قطـربي </string>
+    <string name="back"> رجــوع </string>
+    <string name="editHint">أدخل الفعل</string>
+    <string name="Conjugué">صــرّف</string>
+    <string name="Active_voice"> مبني للمعلوم </string>
+    <string name="passive_voice"> مبني للمجهول </string>
+    <string name="message_exit"> هل تريد الخــروج ؟ </string>
+    <string name="button_yes">نعم</string>
+    <string name="button_No"> لا </string>
+    <string name="Properties"> خصائص الفعل </string>
+    <string name="cancel"> إلــغاء </string>
+    <string name="OK"> حسنا </string>
+    <string name="name_verbs"> الفعل : </string>
+    <string name="verb_conjugué"> الفعل مصرف : </string>
+    <string name="verb_type"> النوع : </string>
+    <string name="trans"> التعدي : </string>
+    <string name="root"> الجذر : </string>
+    <string name="lettre"> الوزن : </string>
+    <string name="note"> تنبيه : </string>
+
+    <string name="jeux_pronouns"> أتعلم الضمائر </string>
+    <string name="jeux_conjugate"> أتعلم التصريف </string>
+    <string name="jeux_properties"> أتعلم خصائص الأفعال </string>
+    <string name="history">الأفعال السابقة</string>
+
+
+    <string name="pastactive">  المــاضـي  </string>
+    <string name="futuractive">  المضارع المرفوع  </string>
+    <string name="impirative"> الأمر  </string>
+    <string name="ConfirmedImperative"> الأمر المؤكد </string>
+    <string name="JussiveFuture"> المضارع المجزوم   </string>
+    <string name="SubjunctiveFuture"> المضارع المنصوب  </string>
+    <string name="ConfirmedFuture"> المضارع المؤكد  </string>
+    <string name="PassivePast">  المــاضـي المجهول </string>
+    <string name="PassiveFuture">  المضارع المرفوع المجهول </string>
+    <string name="PassiveJussiveFuture"> المضارع المجزوم المجهول </string>
+    <string name="PassiveSubjunctiveFuture"> المضارع المنصوب المجهول </string>
+    <string name="PassiveConfirmedFuture"> المضارع المؤكد المجهول </string>
+
+
+    <string name="text_note">    قد تحتوي الكلمة على حرف غير عربي.</string>
+    <string name="text_note2">قد يكون عدد الحروف أقل من ثلاثة أحرف أو أكثر من سبعة.</string>
+    <string name="text_note3">قد تحتوي على حرف غير مناسب :  تاء مربوطة، أو همزة تحت الألف.</string>
+    <string name="text_note4">ربما لم تُدخل أي فعل.</string>
+    <string name="text_note5">يرجى التأكّد</string>
+    //----------------------------------------------------------------------------------------------
+
+   <string name="about0">برنامجٌ لتصريف الأفعال العربية تمكن المستخدم من تعلّم التصريف
+هو برنامج حر مفتوح المصدر مجاني مبني على برنامج  قطرب
+يمكِّن البرنامج  المستخدم  من  تصريف  الأفعال  في الأزمنة و مع الضمائر
+قطربي يُصرّف الأفعال دون اتصال، كما يسمح بالاتصال بموقع قطرب على النت:    </string>
+
+    <string name="about1">يمكن تخصيص إعدادات البرنامج واختيار باب الصرف بالنسبة للأفعال الثلاثية
+يعرض البرنامج خصائص الفعل المصرّف.
+يحتوي قطرب على قاعدة بيانات للأفعال الشائعة مصرّفة بواسطة برنامج قطرب لتصريف الأفعال، ويمكنه الاتصال بالإنترنت
+أضفنا ألعاب تعلمية تمكّن المستخدمين من تعلم الضمائر و تصريف الأفعال و إستيعاب خصائصها بطريقة ممتعة
+يمكنكم التواصل معنا لتعليقاتكم و اقتراحاتكم عبر البريد الإلكتروني    </string>
+
+    <string name="about2">للتحميل:</string>
+
+    <string name="about3">، المطوران : بن زيتون أحمد و كيحال رضوان بإشراف الأستاذ طه زروقي</string>
+
+    <string name="vrb_in">في</string>
+    //------------------------------------------------------------------------------------------
+
+
+    <string name="webconjugate"> التصريف من الوِب </string>
+
+    <string name="webmessage"> هل تريد استخدام الوِب لتصريف الفعل </string>
+
+
+    <string name="sharIt"> شارك </string>
+
+    <string name="sharMessage"> يمكنك تحميل التطبيق من  </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+
+</resources>

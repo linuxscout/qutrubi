@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#10a7aa</color>
+    <color name="colorPrimaryDark">#525386</color>
+    <color name="colorAccent">#f7be00</color>
+
+    <color name="but_click">#10a7aa</color>
+    <color name="but_onclick">#f7be00</color>
+
+
+
+    <item name="blue" type="color">#a81436f7</item>
+    <item name="red" type="color">#a8f40111</item>
+    <item name="black" type="color">#000000</item>
+    <item name="white" type="color">#a8f8fafa</item>
+    <item name="green" type="color">#a8c1f7b3</item>
+    <item name="blue_vert" type="color">#a8299abc</item>
+    <item name="orange" type="color">#a8f95706</item>
+    <item name="gree" type="color">#a8adafac</item>
+    <item name="jaun" type="color">#a8299abc</item>
+    <item name="vrt" type="color">#a8325928</item>
+    <item name="vert_clair" type="color">#68ae8e</item>
+    <item name="white_clair" type="color">#f9f4f4</item>
+    <item name="green_clair" type="color">#cadfc7</item>
+
+
+
+
+</resources>

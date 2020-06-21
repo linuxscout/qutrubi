@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rlv0"
+    tools:context="com.example.ahmed.qutrubi.Conjugate"
+    android:background="#eceff1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#10a7aa">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/back_button"
+                android:onClick="back"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:id="@+id/Back1"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/read_more"
+                android:textColor="#f6faf8"
+
+                android:gravity="center_vertical|right"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_alignBottom="@+id/Back1"
+                android:layout_toRightOf="@+id/Back1"
+                android:layout_toEndOf="@+id/Back1"
+                android:layout_alignParentBottom="false"
+                android:layout_weight="1"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Back1"
+            android:layout_alignRight="@+id/textView6"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:id="@+id/imageView"
+                            android:background="@drawable/about_logo"
+                            android:foregroundGravity="center"
+                            android:layout_gravity="center" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="قطربي"
+                        android:textSize="30dp"
+
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="false"
+                        android:textColor="#f7be00"
+                        android:textStyle="bold"
+                        android:id="@+id/textView7"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about0"
+                        android:layout_below="@+id/rlv1"
+                        android:textSize="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textStyle="bold"
+                        android:id="@+id/about0"
+                        android:gravity="fill_vertical"
+                        android:textColor="#343434"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="qutrub.arabeyes.org"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"
+                        android:id="@+id/about13"
+                        android:layout_below="@+id/about3"
+                        android:layout_alignRight="@+id/about2"
+                        android:layout_alignEnd="@+id/about2"
+                        android:textColor="#10a7aa"
+                        android:gravity="center|fill_vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="@string/about1"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:id="@+id/about1"
+                        android:layout_below="@+id/about0"
+                        android:textColor="#343434"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="qutrubi@gmail.com"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"
+                        android:id="@+id/about9"
+                        android:layout_below="@+id/about8"
+                        android:layout_alignRight="@+id/about5"
+                        android:layout_alignEnd="@+id/about5"
+                        android:textColor="#10a7aa"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="@string/about2"
+                        android:layout_below="@+id/about1"
+                        android:textSize="15dp"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:id="@+id/about2"
+                        android:textColor="#343434"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="qutrubi.blogspot.com"
+                        android:textSize="15dp"
+                        android:textStyle="bold|italic"
+                        android:id="@+id/about11"
+                        android:layout_below="@+id/about10"
+                        android:layout_alignRight="@+id/about5"
+                        android:layout_alignEnd="@+id/about5"
+                        android:textColor="#10a7aa"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about3"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:id="@+id/about3"
+                        android:layout_below="@+id/about2"
+                        android:layout_alignRight="@+id/about2"
+                        android:layout_alignEnd="@+id/about2"
+                        android:textColor="#343434"
+                        android:gravity="fill_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="40dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
